@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation{
+    background-color: darkgreen;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    margin:30px auto;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration:none;
+}
+
+.logo{
+    color: gold;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.navlist a{
+    color: gold;
+}
+
+.btn{
+    background-color: gold;
+    padding: 1rem 2rem;
+    color: darkgreen;
+    font-weight: 300;
+    font-size: 1rem;
+    &:hover{
+        background-color:#dec01a;
+        transition: 0.5s;
+    }
+}
+
+.container{
+    background: red;
+    background: linear-gradient(349deg, #fbc7f054 0%,  white 100%);
+    padding: 2rem 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.left-container-text{
+    width: 50%;
+    height: auto;
+}
+
+.right-container-image{
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+    height: 300px;
+    clip-path: circle();
+}
+
+.testimonial-container{
+    padding: 2rem 7.5rem;
+}
+
+.card-container{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+}
+
+.card{
+    background-color:blue;
+}

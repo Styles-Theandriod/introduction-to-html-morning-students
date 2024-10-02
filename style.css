@@ -1,0 +1,63 @@
+/* universal selector  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* type selector  */
+/* div {
+    background-color: red;
+    width: 50%;
+    height: 50px;
+} */
+
+/* class selector  */
+.text {
+    background-color: orange;
+    text-align: center;
+}
+
+.parent{
+    width: 100%;
+    height: 100px;
+    background-color:yellow;
+}
+
+/* child seclector  */
+.parent > h1{
+    color:brown;
+}
+
+/* decendant selector  */
+.parent h1{
+    background-color: rgb(50, 20, 50);
+}
+
+
+/* rgb hex colors in css 
+rgb 0 to 255
+hex 6 values or 3values or 4values a to f 0 to 9
+*/
+
+/* backgrounds in css  */
+
+.backgrounds{
+    background-color: red;
+    height: 200px;
+    background-image:url(./image.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    /* background: red no-repeat cover center fixed url(./image.jpeg); */
+}
+
+.fonts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+
+    /* text in css  */
+    text-align: center;
+}
